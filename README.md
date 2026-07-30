@@ -2,7 +2,10 @@
 
 **Python engineer** — production backends, realtime desktop systems, LLM ops.
 
-Remote · Moscow area · [ovelay@gmail.com](mailto:ovelay@gmail.com)
+### Open to work
+
+Looking for **remote / hybrid** roles: Python backend, realtime systems, LLM ops / AI platform.  
+Moscow area · [ovelay@gmail.com](mailto:ovelay@gmail.com)
 
 ## Strengths
 
