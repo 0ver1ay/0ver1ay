@@ -1,33 +1,29 @@
 # Anton Komarov
 
-Python engineer. Moscow, open to remote / hybrid.
-
-Backends, realtime desktop apps, Unity gameplay systems, LLM tooling.  
+Python engineer — **product systems with LLMs**. Moscow, remote / hybrid.  
 [ovelay@gmail.com](mailto:ovelay@gmail.com)
 
-## Projects
-
-**[ai-retouch-studio](https://github.com/0ver1ay/ai-retouch-studio)**  
-Photoshop plugin and desktop studio. Local FastAPI proxy to six Replicate image models. Tests and CI.
-
-**[KeyHolder-Demo](https://github.com/0ver1ay/KeyHolder-Demo)**  
-Electronic key cabinet: RFID, PostgreSQL, admin and user apps, Docker.
-
-**[PatientMonitor-Demo](https://github.com/0ver1ay/PatientMonitor-Demo)**  
-Realtime vitals UI, PostgreSQL, export to CSV / PDF / XML.
-
-**[unity-arcade-loop-demo](https://github.com/0ver1ay/unity-arcade-loop-demo)**  
-Unity garage loop from a private commercial title (NDA): wallet, upgrades, inventory/crafting. No shipping assets.
+I put models behind my own API: routing, budgets, timeouts, fallback, eval. Clone these two.
 
 **[llm-agent-gateway](https://github.com/0ver1ay/llm-agent-gateway)**  
-Small FastAPI gateway: model tiers, spend budget, eval harness, CI.  
-[Architecture notes](https://github.com/0ver1ay/llm-agent-gateway/blob/main/docs/CASE_STUDY.md)
+Multi-tier gateway (`junior` / `critic` / `apex`), cost ledger, tool-calling loop, fixture eval, CI.
 
-**[EchoCancellation](https://github.com/0ver1ay/EchoCancellation)**  
-Acoustic echo cancellation library for .NET Framework 4.5.
+**[ai-retouch-studio](https://github.com/0ver1ay/ai-retouch-studio)**  
+FastAPI proxy to six Replicate image/LLM models. Photoshop UXP panel and desktop client. Tests and CI.
+
+Architecture notes: [gateway case study](https://github.com/0ver1ay/llm-agent-gateway/blob/main/docs/CASE_STUDY.md).
+
+## Also shipped
+
+Not the hiring thesis — evidence I finish products:
+
+- [KeyHolder-Demo](https://github.com/0ver1ay/KeyHolder-Demo) — RFID cabinet, PostgreSQL, Docker
+- [PatientMonitor-Demo](https://github.com/0ver1ay/PatientMonitor-Demo) — realtime vitals UI
+- [EchoCancellation](https://github.com/0ver1ay/EchoCancellation) — AEC for .NET Framework 4.5
+- [unity-arcade-loop-demo](https://github.com/0ver1ay/unity-arcade-loop-demo) — NDA-safe Unity systems extract
 
 ## Stack
 
-Python, FastAPI, Django, PostgreSQL, Docker, pytest, Unity / C#, .NET.
+`Python` · `FastAPI` / `Django` · `PostgreSQL` · `Docker` · `pytest` · LLM APIs (OpenAI-compatible, Replicate)
 
-Commercial Django, telemedicine, a private Unity title, and a research stack stay under NDA. Public repos are the parts you can clone and run.
+Commercial telemedicine, e-commerce, and a private research factory stay under NDA. Public repos are the slices you can clone and run.
