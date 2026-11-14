@@ -3,15 +3,17 @@
 Python engineer — **product systems with LLMs**. Moscow, remote / hybrid.  
 [ovelay@gmail.com](mailto:ovelay@gmail.com)
 
-I put models behind my own API: routing, budgets, timeouts, fallback, eval. Clone these two.
+I put models behind my own API: routing, budgets, timeouts, fallback, eval. Clone these three.
 
 **[llm-agent-gateway](https://github.com/0ver1ay/llm-agent-gateway)**  
 Multi-tier gateway (`junior` / `critic` / `apex`), cost ledger, tool-calling loop, fixture eval, CI.
 
+**[comfy-video-api](https://github.com/0ver1ay/comfy-video-api)**  
+ComfyUI as a production service: FastAPI + Celery + Redis, Wan 2.2 I2V with SVI Pro and RIFE 32 fps, moderation hook, tested graph invariants, CI.
+
 **[ai-retouch-studio](https://github.com/0ver1ay/ai-retouch-studio)**  
 FastAPI proxy to six Replicate image/LLM models. Photoshop UXP panel and desktop client. Tests and CI.
 
-Architecture notes: [gateway case study](https://github.com/0ver1ay/llm-agent-gateway/blob/main/docs/CASE_STUDY.md).
 
 ## Also shipped
 
